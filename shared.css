@@ -39,12 +39,7 @@ main {
   align-items: center;
   justify-content: space-between;
 }
-/*
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-*/
+
 .toggle-button {
   width: 3rem;
   background: transparent;
@@ -132,10 +127,6 @@ main {
   }
 
   .main-nav {
-   /* display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle; */
     display: flex;
   }
 }
