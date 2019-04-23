@@ -28,7 +28,7 @@ main {
 }
 
 .backdrop {
-  display: none; 
+  display: none;
   position: fixed;
   opacity: 0;
   top: 0;
@@ -37,7 +37,7 @@ main {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
-  transition: opacity 200ms linear;
+  transition: opacity 0.2s linear;
 }
 
 .main-header {
@@ -176,7 +176,7 @@ main {
 }
 
 .mobile-nav {
-  display: none;
+  transform: translateX(-100%);
   position: fixed;
   z-index: 101;
   top: 0;
@@ -184,6 +184,7 @@ main {
   background: white;
   width: 80%;
   height: 100vh;
+  transition: transform 300ms ease-out;
 }
 
 .mobile-nav__items {
