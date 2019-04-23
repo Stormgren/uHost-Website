@@ -110,7 +110,9 @@ main {
   font-weight: bold;
   padding: 0.2rem 0;
 }
-
+ .main-nav__item--cta{
+   animation: wiggle 200ms 3s 8;
+ }
 .main-nav__item a:hover,
 .main-nav__item a:active {
   color: white;
@@ -249,5 +251,14 @@ main {
   .main-footer__links {
     flex-direction: row;
     justify-content: center;
+  }
+}
+
+@keyframes wiggle{
+  from {
+    transform: rotateZ(-10deg);
+  }
+  to {
+    transform: rotateZ(10deg);
   }
 }
